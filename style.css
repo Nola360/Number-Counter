@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap');
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://wallpaperstock.net/wallpapers/thumbs1/8288wide.jpg') center/cover no-repeat;
+  color: white;
+  font-family: 'Bebas Neue', 'roboto', 'futura';
+  font-weight: bold;
+}
+
+.counter-box {
+  flex: 0 0 70%;
+  text-align: center;
+  border: 3px solid silver;
+  padding: 1rem;
+  font-weight: bold;
+  box-shadow: 3px 3px 10px 10px black;
+}
+
+.counter {
+  font-size: 6rem;
+}
+
+.button {
+  background: white;
+  color: rgb(33, 33, 189);
+  border-radius: 6px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: .5rem .5rem;
+  padding: .5rem 2rem;font-family: 'roboto';
+  text-transform: uppercase;
+  border:  2px solid black;
+  outline: none;
+  box-shadow: 5px 5px 5px #001221;
+}
+
+.button:hover {
+  background-color: rgb(33, 33, 189);
+  color: white;
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow: none;
+}
