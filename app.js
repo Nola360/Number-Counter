@@ -12,7 +12,6 @@ addCount.addEventListener('click', incrementCounter);
 subtractCount.addEventListener('click', decrementCounter);
 reset.addEventListener('click', resetCounter);
 
-
 //Adding function
 function incrementCounter() {
   count++;
