@@ -3,6 +3,7 @@
 body {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: url('https://wallpaperstock.net/wallpapers/thumbs1/8288wide.jpg') center/cover no-repeat;
@@ -11,17 +12,30 @@ body {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 6rem;
+}
+
 .counter-box {
+  /* display: flex; */
+  /* flex-direction: column; */
   flex: 0 0 70%;
   text-align: center;
   border: 3px solid silver;
+  /* min-height: 400px;s */
+  margin-top: 0;
   padding: 1rem;
   font-weight: bold;
   box-shadow: 3px 3px 10px 10px black;
 }
 
 .counter {
-  font-size: 6rem;
+  font-size: 12rem;
+  margin: 0;
+}
+
+.counter-box h1 {
+  margin: 5px;
 }
 
 .button {
@@ -31,7 +45,8 @@ body {
   font-size: 2rem;
   font-weight: bold;
   margin: .5rem .5rem;
-  padding: .5rem 2rem;font-family: 'roboto';
+  padding: .5rem 2rem;
+  font-family: 'roboto';
   text-transform: uppercase;
   border:  2px solid black;
   outline: none;
